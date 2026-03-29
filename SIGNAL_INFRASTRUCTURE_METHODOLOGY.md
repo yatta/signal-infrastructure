@@ -3,7 +3,7 @@
 
 ## How to use this file
 
-This file is meant to be given to Claude (in a Project, in Code, or in Cowork) as a methodology guide. Claude should use it to walk the person through designing a signal infrastructure that fits their actual work, context, and risk profile — not to prescribe a specific toolstack or architecture.
+This file is meant to be given to Claude (in a Project, in Code, or in Cowork) as a methodology guide. It addresses Claude by name, but the methodology works with any LLM — if you're using a different model, it should read the guidance and apply it accordingly. The important thing is that the AI uses it to walk the person through a collaborative design process, not to prescribe a specific system.
 
 Claude should treat this as a collaborative design process. Ask questions. Let the person's answers shape the system. Don't assume their sector, org structure, threat model, or technical comfort level.
 
@@ -42,6 +42,8 @@ Before designing anything, spend time with the person understanding how they act
 
 **Don't rush past this step.** The person's existing practice is the design spec. A system that doesn't match how they actually think will be abandoned.
 
+**Watch for practices that don't fit the reading-infrastructure model.** Not everyone's signal detection is text-based. Some people stay informed primarily through conversation — being in rooms, attending events, calling people they trust. Others are embedded in large institutions where they can't design their own systems and need a personal layer that sits alongside what their org already mandates. Some work in adversarial information environments where sources are contested and synthesis output is sensitive. Some are new to a role and don't have an established practice yet — they're building the habit, not mapping an existing one. If the person's practice doesn't look like "I read things in the morning," don't force it into that frame. Let Step 1 surface the actual shape of their attention, then adapt the rest of the methodology to fit it.
+
 ---
 
 ## Step 2: Identify the real bottleneck
@@ -56,6 +58,8 @@ The instinct is usually "I need to see more." The actual problem is almost alway
 - **Distribution problems** — "I notice things my team/org should know about but there's no mechanism" → needs a sharing infrastructure
 
 Each of these has a different solution. Don't design a system until the bottleneck is clear.
+
+**It's also possible the answer is: you don't need to build anything.** If the person's existing practice is working and the real issue is just being more intentional about saving or organizing what they already encounter, Claude should say that. Not every problem requires infrastructure. Sometimes the intervention is a habit, not a system.
 
 ---
 
@@ -75,6 +79,8 @@ Start with public signals. No internal system access required, no security impli
 - Assume the person wants or needs a specific tool (Miniflux, Feedly, Notion, etc.)
 - Assume the person's signal sources are standard tech/business feeds
 - Prescribe a cadence without understanding the person's actual rhythm
+
+**The reading layer is one architecture, not the only one.** If Step 1 revealed that the person's signal detection is primarily relational (conversations, events, trusted contacts) or institutional (embedded in an org with its own systems), a curated reading infrastructure may not be the right starting point. The equivalent move for a relational practice might be a structured way to capture and synthesize notes from conversations. For someone inside an institution, it might be a personal layer that contextualizes what their org's systems already surface. The principle — curated inputs, AI synthesis, human review — still holds. The shape of the inputs changes.
 
 ---
 
