@@ -14,7 +14,7 @@ Anyone whose work depends on staying ahead of signal — across industries, org 
 
 ## How to use it
 
-1. Drop [`methodology.md`](methodology.md) into a Claude Project, give it to Claude Code, or paste it into any LLM conversation
+1. Drop [`SIGNAL_INFRASTRUCTURE_METHODOLOGY.md`](SIGNAL_INFRASTRUCTURE_METHODOLOGY.md) into a Claude Project, give it to Claude Code, or paste it into any LLM conversation
 2. Start talking about how you actually stay informed — what you read, when, how you decide what matters
 3. Let the methodology guide the conversation from there
 
